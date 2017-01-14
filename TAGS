@@ -1,0 +1,31 @@
+
+./app/Main.hs,52
+module Main Main0,1
+main main4,5
+main main5,6
+
+./Setup.hs,15
+main main1,2
+
+./src/Chapter1/Q2CheckPermutation.hs,202
+module Q2CheckPermutation Q2CheckPermutation0,1
+isPermutation isPermutation7,8
+isPermutation isPermutation8,9
+isPermutationSpec isPermutationSpec12,13
+isPermutationSpec isPermutationSpec13,14
+
+./src/Chapter1/Q4IsPermutationOfPalindrome.hs,245
+module Q4IsPermutationOfPalindrome Q4IsPermutationOfPalindrome1,2
+isPalindrome isPalindrome5,6
+isPalindrome isPalindrome6,7
+isPermutationOfPalindrome isPermutationOfPalindrome8,9
+isPermutationOfPalindrome isPermutationOfPalindrome9,10
+
+./src/Lib.hs,65
+module LibLib0,1
+someFunc someFunc4,5
+someFunc someFunc5,6
+
+./test/Spec.hs,30
+main main0,1
+main main1,2
