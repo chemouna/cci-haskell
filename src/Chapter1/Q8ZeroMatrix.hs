@@ -11,3 +11,4 @@ zeroMatrix xs = [[zero i j v | (j, v) <- zip [0..] row] | (i, row) <- zip [0..] 
     zero row col val | row `elem` zeroRows = 0
                      | col `elem` zeroColumns = 0
                      | otherwise = val
+
