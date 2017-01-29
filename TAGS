@@ -14,12 +14,27 @@ isPermutation isPermutation8,9
 isPermutationSpec isPermutationSpec12,13
 isPermutationSpec isPermutationSpec13,14
 
-./src/Chapter1/Q4IsPermutationOfPalindrome.hs,245
-module Q4IsPermutationOfPalindrome Q4IsPermutationOfPalindrome1,2
-isPalindrome isPalindrome5,6
+./src/Chapter1/Q4IsPermutationOfPalindrome.hs,247
+module Q4IsPermutationOfPalindrome Q4IsPermutationOfPalindrome0,1
 isPalindrome isPalindrome6,7
-isPermutationOfPalindrome isPermutationOfPalindrome8,9
+isPalindrome isPalindrome7,8
 isPermutationOfPalindrome isPermutationOfPalindrome9,10
+isPermutationOfPalindrome isPermutationOfPalindrome10,11
+
+./src/Chapter1/Q6StringCompress.hs,46
+module Q6StringCompress Q6StringCompress1,2
+
+./src/Chapter1/Q7MatrixRotate90.hs,147
+module Q7MatrixRotate90 Q7MatrixRotate901,2
+rotate90 rotate905,6
+rotate90 rotate906,7
+rotate90_2 rotate90_28,9
+rotate90_2 rotate90_29,10
+
+./src/Chapter1/Q8ZeroMatrix.hs,92
+module Q8ZeroMatrix Q8ZeroMatrix0,1
+zeroMatrix zeroMatrix4,5
+zeroMatrix zeroMatrix5,6
 
 ./src/Lib.hs,65
 module LibLib0,1
