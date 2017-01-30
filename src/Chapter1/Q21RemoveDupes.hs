@@ -1,6 +1,7 @@
 module Q21RemoveDupes where
 
 import Data.List
+import qualified Data.Set as Set
 
 removeDupes :: Eq a => [a] -> [a]
 removeDupes [] = []
@@ -15,3 +16,11 @@ removeDupes2 = foldl (\seen x -> if x `elem` seen
 -- an O(n log n) solution but that requires Ord constraint and doesnt preserve the order
 removeDupes3 :: Ord a => [a] -> [a]
 removeDupes3 = map head . group . sort
+
+-- another O(n log n) solution that requires Ord constraint but preserves the order
+removeDupes4 :: Ord a => [a] -> [a]
+removeDupes4 = rmdupes Set.empty where
+  rmdupes _ [] = []
+  rmdupes a (b : c) = if Set.member b a
+                         then rmdupes a c
+                         else b : rmdupes (Set.insert b a) c

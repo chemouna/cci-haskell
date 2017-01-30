@@ -17,15 +17,17 @@ library
   hs-source-dirs:      src
   exposed-modules:     Lib
   build-depends:       base >= 4.7 && < 5
+                       , containers >= 0.5.7.1
   default-language:    Haskell2010
 
 executable cci-haskell-exe
   hs-source-dirs:      app
   main-is:             Main.hs
   ghc-options:         -threaded -rtsopts -with-rtsopts=-N
-  build-depends:       base
+  build-depends:       QuickCheck == 2.8.2
+                     , base
                      , cci-haskell
-                     , QuickCheck == 2.8.2
+                     , containers >= 0.5.7.1
                      , haskell-docs
                          
   default-language:    Haskell2010
@@ -34,9 +36,10 @@ test-suite cci-haskell-test
   type:                exitcode-stdio-1.0
   hs-source-dirs:      test
   main-is:             Spec.hs
-  build-depends:       base
+  build-depends:       QuickCheck == 2.8.2
+                     , base
                      , cci-haskell
-                     , QuickCheck == 2.8.2
+                     , containers >= 0.5.7.1
 
   ghc-options:         -threaded -rtsopts -with-rtsopts=-N
   default-language:    Haskell2010
